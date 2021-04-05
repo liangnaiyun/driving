@@ -1,3 +1,9 @@
+def valid_message():
+	print('您可以考駕照')
+
+def invalid_message():
+	print('您還不能考駕照')
+	
 country = input('請問您是哪國人：')
 age = input('請問您的年齡：')
 age = int(age)
@@ -12,10 +18,6 @@ elif country == '美國':
 	else:
 		invalid_message()
 
-def valid_message():
-	print('您可以考駕照')
 
-def invalid_message():
-	print('您還不能考駕照')
 
 
